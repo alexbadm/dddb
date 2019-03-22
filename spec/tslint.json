@@ -1,0 +1,12 @@
+{
+    "defaultSeverity": "warning",
+    "extends": [
+        "../tslint.json"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-console": false,
+        "no-unused-expression": false,
+    },
+    "rulesDirectory": []
+}

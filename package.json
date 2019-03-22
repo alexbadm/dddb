@@ -1,0 +1,27 @@
+{
+  "name": "dddb",
+  "version": "0.1.0",
+  "description": "Data-Driven Database",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "test": "ts-mocha spec/*.spec.ts"
+  },
+  "keywords": [],
+  "author": "alexbadm",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.11.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "ts-mocha": "^6.0.0",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
+  }
+}
